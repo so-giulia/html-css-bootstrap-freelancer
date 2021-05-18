@@ -21,8 +21,14 @@
     background-color: #000;
 }
 
-.debug-column [class*="col-"]{
+.debug-column .col, .debug-column [class*="col-"]{
     width:350px;
     height:250px;
     background-color: green;
+}
+
+.debug .btn-download{
+    width:120px;
+    height:80px;
+    background-color: pink;
 }
