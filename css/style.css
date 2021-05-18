@@ -11,7 +11,7 @@
 }
 
 .debug section{
-    height:400px;
+    height:800px;
     background-color: aqua;
     margin-bottom:10px;
 }
@@ -19,4 +19,10 @@
 .debug footer{
     height:300px;
     background-color: #000;
+}
+
+.debug-column [class*="col-"]{
+    width:350px;
+    height:250px;
+    background-color: green;
 }
