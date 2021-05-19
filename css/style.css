@@ -1,23 +1,5 @@
 /* Debug + structure */
 
-.bg-navbar{
-    height:90px;
-    background-color: #2c3e50;
-    position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-}
-
-#jumbotron, #about{
-    background-color: #1abc9c;
-    padding:60px;
-    color:#fff;
-}
-
-/* .box-green{
-    height:400px;
-} */
 
 .box{
     background-color: red;
@@ -32,6 +14,13 @@
 
 .footer-bottom{
     background-color: #2c3e50;
+    color:#fff;
+}
+
+/* Common */
+
+#jumbotron, #about{
+    background-color: #1abc9c;
     color:#fff;
 }
 
@@ -54,8 +43,14 @@ h1{
     display: inline-block;
     vertical-align: middle;
     width: 120px;
-    background-color: #fff;
     height:3px;
+
+    background-color: #000;
+}
+
+#jumbotron .star::before, #jumbotron .star::after,
+#about .star::before, #about .star::after{
+    background-color: #fff;
 }
 
 .star svg{
@@ -63,12 +58,35 @@ h1{
     margin:0 10px;
 }
 
+/* Header */
+
+header{
+    color: #fff !important;
+}
+
+.bg-navbar{
+    height:90px;
+    background-color: #2c3e50 !important;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+
 /* Jumbotron */
 
 #jumbotron{
-    padding-top:150px;
+    padding:150px 0 60px 0;
 }
 
 #jumbotron p{
     font-size: 1.2rem;
+}
+
+/* Portfolio */
+
+.portfolio-grid img{
+    width:100%;
+    border-radius: 0.5rem;
 }
