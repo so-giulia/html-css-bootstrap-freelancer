@@ -38,6 +38,10 @@ h1{
     font-size:4rem;
 }
 
+p{
+    font-size:1.3rem;
+}
+
 .star::before, .star::after{
     content:'';
     display: inline-block;
@@ -90,3 +94,6 @@ header{
     width:100%;
     border-radius: 0.5rem;
 }
+
+/* About */
+
