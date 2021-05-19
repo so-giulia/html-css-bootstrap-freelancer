@@ -31,6 +31,15 @@ p{
     font-size:1.3rem;
 }
 
+.caption{
+    font-size:0.8rem;
+    margin:0;
+}
+
+.p-normal{
+    font-size:1rem;
+}
+
 .star::before, .star::after{
     content:'';
     display: inline-block;
@@ -65,7 +74,6 @@ header{
     left:0;
     width:100%;
 }
-
 
 /* Jumbotron */
 
@@ -113,11 +121,27 @@ header{
 /* Footer */
 
 .footer-top{
-    height:200px;
     background-color: #3a546d;
+    color:#fff;
 }
 
 .footer-bottom{
     background-color: #2c3e50;
     color:#fff;
+}
+
+.green-link, 
+.green-link:hover, 
+.green-link:visited,
+.green-link:focus,
+.green-link:active{
+    color:#1abc9c;
+    text-decoration: none;
+}
+
+.social-container i{
+    width:50px;
+    height:50px;
+    border:1px solid #fff;
+    line-height: 47px;
 }
